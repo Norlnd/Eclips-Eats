@@ -1,0 +1,89 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <title>Bootstrap demo</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+  </head>
+  <body>
+    <nav class="navbar navbar-expand-lg bg-body-tertiary fixed-top" >
+      <div class="container-fluid">
+        <img src="Logo.png" alt="logo" width="100px">
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse" id="navbarNav">
+          <ul class="navbar-nav ms-auto">
+            <li class="nav-item">
+              <a class="nav-link active" aria-current="page" href="#">Home</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Menu</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">Reservasi</a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="#">About Us</a>
+            </li>
+          </ul>
+        </div>
+      </div>
+    </nav>
+
+    <!--Home-->
+    <section>
+    <div id="carouselExampleDark" class="carousel carousel-dark slide text-center" >
+      <div class="carousel-indicators">
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="1" aria-label="Slide 2"></button>
+        <button type="button" data-bs-target="#carouselExampleDark" data-bs-slide-to="2" aria-label="Slide 3"></button>
+      </div>
+      <div class="carousel-inner">
+        <div class="carousel-item active" data-bs-interval="10000">
+          <img src="bgresto.jpg" class="d-block w-100" alt="..." style="height: 100vh;">
+          <div class="carousel-caption d-none d-md-block" style="background-color: white;" >
+            <h5 style="color: black; font-weight: bold;">Resto Kami</h5>
+            <p style="color: black;">Kenyamanan pelanggan kami utamakan.</p>
+          </div>
+        </div>
+        <div class="carousel-item" data-bs-interval="2000"style="height: 100vh;">
+          <img src="bgpizza1.jpg" class="d-block w-100" alt="...">
+          <div class="carousel-caption d-none d-md-block" style="background-color: white;">
+            <h5 style="color: black;">Best Seller</h5>
+            <p style="color: black;">Pizza dibuat dengan bahan premium.</p>
+          </div>
+        </div>
+        <div class="carousel-item">
+          <img src="bgmenu1.jpg" class="d-block w-100" alt="..."style="height: 100vh;">
+          <div class="carousel-caption d-none d-md-block" style="background-color: white;">
+            <h5 style="color: black;">Menu Favorit</h5>
+            <p style="color: black;">Menu pilihan dengan kualitas yang maksimal. </p>
+          </div>
+        </div>
+      </div>
+      <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Previous</span>
+      </button>
+      <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleDark" data-bs-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="visually-hidden">Next</span>
+      </button>
+    </div>
+  </section>
+  <!-- Home -->
+
+  <!--  -->
+  <div class="container">
+    <div class="row">
+      <div class="col">
+        <h1> Western Restaurant </h1>
+        <h3> ECLIPS EATS</h3>
+      </div>
+    </div>
+  </div>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+  </body>
+</html>
