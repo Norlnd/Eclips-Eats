@@ -1,4 +1,4 @@
-const buttons = document.querySelectorAll('button'),
+const buttons = document.querySelectorAll('#niko'),
   toaste = document.querySelector('.toaste');
 (closeIcon = document.querySelector('.close')), (progress = document.querySelector('.progress'));
 
